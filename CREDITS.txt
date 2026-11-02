@@ -5,7 +5,7 @@ https://www.figma.com/design/j74o9IZu4jQkds5b3PxSHd/CCT360-Interactive-Discovery
 Information architecture:
 https://www.figma.com/design/j74o9IZu4jQkds5b3PxSHd/CCT360-Interactive-Discovery?node-id=0-1
 
-Menu artwork: CCT360 Menu image.png, supplied by the design partner, included
+Menu artwork: CCT360 MenuNew.png, supplied by the design partner, included
 unchanged as assets/images/menu.png.
 
 Photographs: selected by the design partner from Pexels. Local copies are
