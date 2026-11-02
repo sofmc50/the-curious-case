@@ -1,0 +1,49 @@
+THE CURIOUS CASE — DESIGN AND MEDIA REFERENCES
+
+Wireframes supplied by the design partner:
+https://www.figma.com/design/j74o9IZu4jQkds5b3PxSHd/CCT360-Interactive-Discovery?node-id=9-45
+Information architecture:
+https://www.figma.com/design/j74o9IZu4jQkds5b3PxSHd/CCT360-Interactive-Discovery?node-id=0-1
+
+Menu artwork: CCT360 Menu image.png, supplied by the design partner, included
+unchanged as assets/images/menu.png.
+
+Photographs: selected by the design partner from Pexels. Local copies are
+included so the website does not depend on external image hosting.
+Source and licence information: https://www.pexels.com/license/
+
+welcome-street.jpg
+https://www.pexels.com/photo/sunny-sidewalk-with-vibrant-fall-foliage-29625096/
+welcome-leaves.jpg
+https://www.pexels.com/photo/vibrant-autumn-leaves-in-toronto-park-29246922/
+home.jpg
+https://www.pexels.com/photo/cozy-living-room-with-sofa-5825527/
+cafe.jpg
+https://www.pexels.com/photo/cafe-kitchen-with-coffee-machine-and-glassware-6152270/
+pastries.jpg
+https://www.pexels.com/photo/food-inside-display-chiller-1855214/
+latte.jpg
+https://www.pexels.com/photo/cup-of-coffee-on-saucer-459489/
+tea.jpg
+https://www.pexels.com/photo/refreshing-glass-of-herbal-tea-on-windowsill-28836251/
+croissant.jpg
+https://www.pexels.com/photo/classic-french-breakfast-with-croissant-32802349/
+park.jpg
+https://www.pexels.com/photo/scenic-autumn-park-with-vibrant-foliage-34702272/
+path.jpg
+https://www.pexels.com/photo/scenic-autumn-pathway-in-a-sunlit-park-34193023/
+squirrel.jpg (alex Lazaro / Pexels)
+https://www.pexels.com/photo/selective-focus-photography-of-squirrel-sitting-on-armchair-21784/
+fountain.jpg
+https://www.pexels.com/photo/fountain-in-park-in-autumn-19073962/
+garden.jpg
+https://www.pexels.com/photo/vibrant-botanical-garden-in-toronto-park-29192210/
+flowers.jpg
+https://www.pexels.com/photo/vibrant-chrysanthemum-garden-in-new-york-35222832/
+bookshop.jpg
+https://www.pexels.com/photo/sale-on-street-in-front-of-bookstore-17160725/
+
+Book cover artwork is made from styled HTML text, borders and decorative
+characters. It does not reproduce commercial book cover designs. The five
+book titles and authors identify classic works. Book descriptions are short
+original summaries written for this experience. All shop prices are pretend.

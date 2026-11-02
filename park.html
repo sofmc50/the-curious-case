@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Follow your curiosity through a cozy autumn afternoon. Visit a café, collect park photographs, and find your next book.">
+  <meta name="theme-color" content="#304c38">
+  <title>A walk in the park | The Curious Case</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="park">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="The Curious Case welcome"><span class="brand-flower" aria-hidden="true">✳</span><span>the curious case<span class="brand-small">an autumn afternoon</span></span></a>
+    <nav aria-label="Main navigation"><a href="home.html">Home</a><a href="coffee.html">Coffee shop</a><a href="park.html" aria-current="page">Park</a><a href="bookshop.html">Bookshop</a><a href="back-home.html">My day</a></nav>
+    <a class="memory-count" href="back-home.html" aria-label="View your collected memories"><span aria-hidden="true">✧</span> <span id="memory-count">0 / 3</span><span class="memory-label"> memories</span></a>
+  </header>
+  <main id="main">
+  <section class="scene-heading wrap"><a class="back-link" href="home.html">← The neighbourhood</a><div class="heading-row"><div><p class="eyebrow">02 / The scenic route</p><h1>A walk in the park.</h1></div><p>A camera in your pocket.<br>A hundred little things to notice.</p></div></section>
+  <section class="park-stage photo-background"><div class="park-layout wrap"><div class="paper camera-list"><p class="eyebrow">A small photo walk</p><h2>Look a little closer.</h2><p>Choose something to photograph. Collect three different moments to uncover a note.</p><p class="photo-count"><span id="photo-count">0</span> / 5 photos collected</p><div class="photo-options" role="group" aria-label="Things to photograph"><button data-photo="path"><span>01</span> The golden path <span class="capture-state">＋</span></button><button data-photo="squirrel"><span>02</span> A tiny neighbour <span class="capture-state">＋</span></button><button data-photo="fountain"><span>03</span> The fountain <span class="capture-state">＋</span></button><button data-photo="garden"><span>04</span> A secret garden <span class="capture-state">＋</span></button><button data-photo="flowers"><span>05</span> One last bloom <span class="capture-state">＋</span></button></div><p class="tiny" id="camera-feedback" role="status">No rush. The best photos happen when you pause.</p></div><figure class="polaroid" id="polaroid"><div class="viewfinder"><img id="park-photo" src="assets/images/path.jpg" width="1200" height="800" alt="An autumn path waiting to be photographed"><span class="viewfinder-mark" aria-hidden="true">＋</span><span class="viewfinder-caption" id="viewfinder-caption">Choose a moment to keep</span></div><figcaption id="park-caption">a few things worth remembering.</figcaption><span class="polaroid-number" id="polaroid-number">AUTUMN / NO. —</span></figure></div><div class="wrap"><div class="park-discovery paper" id="park-discovery" hidden><span aria-hidden="true">✧</span><div><p class="eyebrow">A memory collected</p><h3>You found a pattern.</h3><p>A path, a pause, a small surprise. The park’s little secret? There’s more to see when you slow down.</p></div></div></div></section>
+  <section class="photo-album wrap" id="photo-album" hidden><div class="section-heading"><div><p class="eyebrow">Collected along the way</p><h2>Your pocket gallery.</h2></div><p>Click a photo to look again.</p></div><div class="album-grid" id="album-grid"></div></section>
+  <section class="next-stops wrap"><div><p class="eyebrow">Keep wandering</p><h2>Where to next?</h2></div><div class="button-group"><a class="button button-outline" href="coffee.html">Something warm →</a><a class="button" href="bookshop.html">Between the pages →</a></div></section>
+</main>
+  <footer class="site-footer"><a href="index.html">The Curious Case</a><span>A little wandering. A little wonder.</span><a href="#credits" id="credits-open">Image credits</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="credits-dialog" aria-labelledby="credits-title"><div class="dialog-inner"><button class="dialog-close" id="credits-close" aria-label="Close image credits">×</button><p class="eyebrow">Made with care</p><h2 id="credits-title">Behind the pictures</h2><p>Photography selected by our design partner, from Pexels. Menu artwork supplied by our design partner. Book covers are simple HTML and CSS designs.</p><div id="image-credits"></div></div></dialog>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Follow your curiosity through a cozy autumn afternoon. Visit a café, collect park photographs, and find your next book.">
+  <meta name="theme-color" content="#304c38">
+  <title>Welcome | The Curious Case</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="welcome">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="The Curious Case welcome"><span class="brand-flower" aria-hidden="true">✳</span><span>the curious case<span class="brand-small">an autumn afternoon</span></span></a>
+    <nav aria-label="Main navigation"><a href="home.html">Home</a><a href="coffee.html">Coffee shop</a><a href="park.html">Park</a><a href="bookshop.html">Bookshop</a><a href="back-home.html">My day</a></nav>
+    <a class="memory-count" href="back-home.html" aria-label="View your collected memories"><span aria-hidden="true">✧</span> <span id="memory-count">0 / 3</span><span class="memory-label"> memories</span></a>
+  </header>
+  <main id="main">
+  <section class="welcome-intro wrap">
+    <div class="welcome-heading"><div><p class="eyebrow">An interactive discovery · CCT360</p><h1>A little curiosity.<br><em>A lovely day.</em></h1></div><p class="intro-note">No big plans. Just a cozy neighbourhood,<br class="desktop-only"> a crisp autumn afternoon,<br class="desktop-only"> and whatever catches your eye.</p></div>
+    <div class="welcome-photo"><img src="assets/images/welcome-street.jpg" width="1800" height="1200" alt="An autumn sidewalk lined with colourful trees" fetchpriority="high"><div class="photo-label"><span aria-hidden="true">↗</span> Somewhere worth wandering</div><span class="round-stamp" aria-hidden="true">TAKE THE<br>SCENIC<br>ROUTE ✳</span><figure class="little-photo"><img src="assets/images/welcome-leaves.jpg" width="1000" height="667" alt="Bright autumn leaves in a Toronto park"><figcaption>there’s more if you look.</figcaption></figure></div>
+    <div class="welcome-bottom"><p>Three places. Small discoveries.<br><span>A day that becomes yours.</span></p><a class="button" id="start-link" href="home.html">Let’s step inside <span aria-hidden="true">↗</span></a><p class="tiny">Explore at your own pace.<br>Your memories are saved in this browser.</p></div>
+  </section>
+</main>
+  <footer class="site-footer"><a href="index.html">The Curious Case</a><span>A little wandering. A little wonder.</span><a href="#credits" id="credits-open">Image credits</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="credits-dialog" aria-labelledby="credits-title"><div class="dialog-inner"><button class="dialog-close" id="credits-close" aria-label="Close image credits">×</button><p class="eyebrow">Made with care</p><h2 id="credits-title">Behind the pictures</h2><p>Photography selected by our design partner, from Pexels. Menu artwork supplied by our design partner. Book covers are simple HTML and CSS designs.</p><div id="image-credits"></div></div></dialog>
+</body>
+</html>

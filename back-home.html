@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Follow your curiosity through a cozy autumn afternoon. Visit a café, collect park photographs, and find your next book.">
+  <meta name="theme-color" content="#304c38">
+  <title>My day | The Curious Case</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="back-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="The Curious Case welcome"><span class="brand-flower" aria-hidden="true">✳</span><span>the curious case<span class="brand-small">an autumn afternoon</span></span></a>
+    <nav aria-label="Main navigation"><a href="home.html">Home</a><a href="coffee.html">Coffee shop</a><a href="park.html">Park</a><a href="bookshop.html">Bookshop</a><a href="back-home.html" aria-current="page">My day</a></nav>
+    <a class="memory-count" href="back-home.html" aria-label="View your collected memories"><span aria-hidden="true">✧</span> <span id="memory-count">0 / 3</span><span class="memory-label"> memories</span></a>
+  </header>
+  <main id="main">
+  <section class="summary-hero wrap"><p class="eyebrow">Back where the day began</p><h1>Small moments.<br><em>A day to keep.</em></h1><p class="summary-intro" id="summary-intro">The afternoon is still unfolding. Your discoveries will find a home here.</p><div class="summary-progress"><div><span id="summary-count">0 of 3 memories collected</span><span id="summary-percentage">0%</span></div><progress id="day-progress" max="3" value="0">0 of 3</progress></div></section>
+  <section class="memory-cards wrap" aria-label="Your collected memories"><article class="memory-card" id="cafe-memory"><div class="memory-card-image"><img id="summary-treat-image" src="assets/images/pastries.jpg" width="1000" height="667" alt="Pastries at the neighbourhood café" loading="lazy"><span class="memory-badge" id="cafe-badge">Still to discover</span></div><div class="memory-card-content"><p class="eyebrow">01 / A little comfort</p><h2 id="summary-treat">A warm little pause.</h2><p id="summary-cafe-text">Choose a treat at the coffee shop to collect this memory.</p><a class="text-link" href="coffee.html">Visit the coffee shop ↗</a></div></article><article class="memory-card" id="park-memory"><div class="memory-card-image"><img src="assets/images/park.jpg" width="1800" height="1200" alt="A colourful autumn park" loading="lazy"><span class="memory-badge" id="park-badge">Still to discover</span></div><div class="memory-card-content"><p class="eyebrow">02 / A closer look</p><h2 id="summary-photos">The things you noticed.</h2><p id="summary-park-text">Photograph three different things in the park to collect this memory.</p><a class="text-link" href="park.html">Return to the park ↗</a></div></article><article class="memory-card" id="book-memory"><div class="memory-card-image"><img src="assets/images/bookshop.jpg" width="1800" height="1200" alt="Books displayed outside a neighbourhood bookshop" loading="lazy"><span class="memory-badge" id="book-badge">Still to discover</span></div><div class="memory-card-content"><p class="eyebrow">03 / A new chapter</p><h2 id="summary-book">A story to take home.</h2><p id="summary-book-text">Browse the bookshop and pick a book to collect this memory.</p><a class="text-link" href="bookshop.html">Visit the bookshop ↗</a></div></article></section>
+  <section class="keepsake-section wrap"><div class="locked-note paper" id="locked-note"><span aria-hidden="true">✧</span><div><p class="eyebrow">One more thing to discover</p><h2>A keepsake is waiting.</h2><p>Collect a café memory, three park photos, and a book to uncover the last little piece of your afternoon.</p></div></div><div class="postcard" id="postcard" hidden><div class="postcard-art"><img src="assets/images/welcome-leaves.jpg" width="1000" height="667" alt="Autumn colours to remember the afternoon"><span>Wish you<br>were here.</span></div><div class="postcard-letter"><span class="postmark" aria-hidden="true">A DAY<br>WELL SPENT<br>✳</span><p class="eyebrow">The final discovery</p><h2>It was never<br>just an ordinary day.</h2><p id="postcard-story"></p><p>The little things were the story all along.<br>You only had to notice.</p><p class="handwritten">Until the next little adventure.</p><button class="text-link text-button" id="download-memory">Save my day as a note ↓</button></div></div></section>
+  <section class="summary-album wrap" id="summary-album" hidden><p class="eyebrow">Your photos, brought home</p><h2>Little things, remembered.</h2><div class="album-grid" id="summary-album-grid"></div></section>
+  <section class="next-stops wrap"><div><p class="eyebrow">Stay curious</p><h2>There’s always another way to wander.</h2></div><div class="button-group"><a class="button" href="home.html">Keep exploring ↗</a><button class="text-button" id="reset-day">Start a new day</button></div></section>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><div class="dialog-inner"><p class="eyebrow">A fresh beginning</p><h2 id="reset-title">Start a new afternoon?</h2><p>This clears the choices and photographs saved for this website in this browser. You can collect a different day.</p><div class="button-group"><button class="button" id="confirm-reset">Start fresh →</button><button class="text-button" id="cancel-reset">Keep my memories</button></div></div></dialog>
+</main>
+  <footer class="site-footer"><a href="index.html">The Curious Case</a><span>A little wandering. A little wonder.</span><a href="#credits" id="credits-open">Image credits</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="credits-dialog" aria-labelledby="credits-title"><div class="dialog-inner"><button class="dialog-close" id="credits-close" aria-label="Close image credits">×</button><p class="eyebrow">Made with care</p><h2 id="credits-title">Behind the pictures</h2><p>Photography selected by our design partner, from Pexels. Menu artwork supplied by our design partner. Book covers are simple HTML and CSS designs.</p><div id="image-credits"></div></div></dialog>
+</body>
+</html>

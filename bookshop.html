@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Follow your curiosity through a cozy autumn afternoon. Visit a café, collect park photographs, and find your next book.">
+  <meta name="theme-color" content="#304c38">
+  <title>The bookshop | The Curious Case</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="bookshop">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="The Curious Case welcome"><span class="brand-flower" aria-hidden="true">✳</span><span>the curious case<span class="brand-small">an autumn afternoon</span></span></a>
+    <nav aria-label="Main navigation"><a href="home.html">Home</a><a href="coffee.html">Coffee shop</a><a href="park.html">Park</a><a href="bookshop.html" aria-current="page">Bookshop</a><a href="back-home.html">My day</a></nav>
+    <a class="memory-count" href="back-home.html" aria-label="View your collected memories"><span aria-hidden="true">✧</span> <span id="memory-count">0 / 3</span><span class="memory-label"> memories</span></a>
+  </header>
+  <main id="main">
+  <section class="scene-heading wrap"><a class="back-link" href="home.html">← The neighbourhood</a><div class="heading-row"><div><p class="eyebrow">03 / Between the pages</p><h1>The bookshop.</h1></div><p>One small shop.<br>So many places to go.</p></div></section>
+  <section class="bookshop-front photo-background" id="shop-front"><div class="paper shop-sign"><p class="eyebrow">A good place to get lost</p><h2>The next chapter<br>is waiting.</h2><p>The door is open. The shelves are full.<br>Shall we have a look?</p><button class="button" id="enter-shop">Step inside <span aria-hidden="true">↗</span></button></div></section>
+  <section class="bookshop-interior wrap" id="shop-interior" hidden><div class="section-heading"><div><p class="eyebrow">The neighbourhood bookshop</p><h2>Pick your next adventure.</h2></div><p>Click a cover to read a little more.<br>All prices and purchases are pretend.</p></div><div class="bookshelf" id="bookshelf"></div><div class="bookshop-bottom"><article class="paper book-description" aria-live="polite"><p class="eyebrow">Off the shelf</p><h3 id="book-title">A story for your kind of day.</h3><p id="book-author">Five classics, five different paths.</p><p id="book-description">Select a book above to see its description. Then choose the one you’d like to take home.</p><p class="book-price" id="book-price"></p><button class="button" id="buy-book" disabled>Choose a book first</button></article><aside class="receipt paper" id="receipt" aria-live="polite"><p class="receipt-flower" aria-hidden="true">✳</p><h3>A little something<br>to take home.</h3><p id="receipt-placeholder">Your receipt will appear here after you choose a book.</p><div id="receipt-details" hidden><p class="receipt-rule">THE NEIGHBOURHOOD BOOKSHOP</p><dl><div><dt>One good story</dt><dd id="receipt-book"></dd></div><div><dt>Total</dt><dd id="receipt-total"></dd></div></dl><p>Paid with curiosity.<br>No real payment was made.</p><p class="handwritten">Thanks for wandering in.</p><p class="tiny">Memory collected · A new chapter</p></div></aside></div></section>
+  <section class="next-stops wrap"><div><p class="eyebrow">There’s still time</p><h2>Another stop, or back home?</h2></div><div class="button-group"><a class="button button-outline" href="park.html">Take the scenic route →</a><a class="button" href="back-home.html">Head home →</a></div></section>
+  <dialog id="shop-dialog" aria-labelledby="shop-dialog-title"><div class="dialog-inner"><p class="eyebrow">Just one more little discovery</p><h2 id="shop-dialog-title">Shall we go inside?</h2><p>A few well-loved stories are waiting. Choose a cover, read a little, and find your next adventure.</p><div class="button-group"><button class="button" id="confirm-shop">Yes, let’s browse →</button><button class="text-button" id="cancel-shop">Maybe in a moment</button></div></div></dialog>
+</main>
+  <footer class="site-footer"><a href="index.html">The Curious Case</a><span>A little wandering. A little wonder.</span><a href="#credits" id="credits-open">Image credits</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="credits-dialog" aria-labelledby="credits-title"><div class="dialog-inner"><button class="dialog-close" id="credits-close" aria-label="Close image credits">×</button><p class="eyebrow">Made with care</p><h2 id="credits-title">Behind the pictures</h2><p>Photography selected by our design partner, from Pexels. Menu artwork supplied by our design partner. Book covers are simple HTML and CSS designs.</p><div id="image-credits"></div></div></dialog>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Follow your curiosity through a cozy autumn afternoon. Visit a café, collect park photographs, and find your next book.">
+  <meta name="theme-color" content="#304c38">
+  <title>Home | The Curious Case</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="The Curious Case welcome"><span class="brand-flower" aria-hidden="true">✳</span><span>the curious case<span class="brand-small">an autumn afternoon</span></span></a>
+    <nav aria-label="Main navigation"><a href="home.html" aria-current="page">Home</a><a href="coffee.html">Coffee shop</a><a href="park.html">Park</a><a href="bookshop.html">Bookshop</a><a href="back-home.html">My day</a></nav>
+    <a class="memory-count" href="back-home.html" aria-label="View your collected memories"><span aria-hidden="true">✧</span> <span id="memory-count">0 / 3</span><span class="memory-label"> memories</span></a>
+  </header>
+  <main id="main">
+  <section class="home-hero photo-background">
+    <div class="paper home-paper"><p class="eyebrow">The afternoon is yours</p><h1>Where will<br>curiosity take you?</h1><p>You’ve got nowhere to rush to. Outside, the leaves are turning and your neighbourhood has a few little things waiting to be discovered.</p><p class="handwritten">Start anywhere. See what happens.</p><a class="text-link" href="#places">Find your first stop <span aria-hidden="true">↓</span></a></div>
+    <span class="corner-caption">A quiet beginning.</span>
+  </section>
+  <section class="places-intro wrap" id="places"><p class="eyebrow">Choose your own afternoon</p><h2>A few places to get lost in.</h2><p>Visit in any order. Every small choice leaves a memory.</p></section>
+  <section class="destination destination-coffee photo-background"><div class="destination-paper"><span class="place-number">01 / A warm little pause</span><h2><a href="coffee.html">The coffee shop <span aria-hidden="true">↗</span></a></h2><p>Something warm, something flaky, and a message hiding in an ordinary moment.</p><a class="button button-light" href="coffee.html">Take a seat <span aria-hidden="true">→</span></a><span class="visit-note" id="coffee-note">A little comfort is waiting.</span></div></section>
+  <section class="destination destination-park photo-background"><div class="destination-paper"><span class="place-number">02 / The scenic route</span><h2><a href="park.html">A walk in the park <span aria-hidden="true">↗</span></a></h2><p>Follow the golden path. Look a little closer. Collect the things most people walk right past.</p><a class="button button-light" href="park.html">Bring your camera <span aria-hidden="true">→</span></a><span class="visit-note" id="park-note">Five things to notice.</span></div></section>
+  <section class="destination destination-books photo-background"><div class="destination-paper"><span class="place-number">03 / Between the pages</span><h2><a href="bookshop.html">The bookshop <span aria-hidden="true">↗</span></a></h2><p>A tiny shop with a story for every kind of wanderer. Which one will you take home?</p><a class="button button-light" href="bookshop.html">Have a browse <span aria-hidden="true">→</span></a><span class="visit-note" id="book-note">Your next chapter awaits.</span></div></section>
+  <section class="home-ending wrap"><div><p class="eyebrow">When you’re ready</p><h2>Every day has a story.</h2><p>Head home to see the one you’ve collected.</p></div><a class="button button-outline" href="back-home.html">Look back on my day <span aria-hidden="true">↗</span></a></section>
+</main>
+  <footer class="site-footer"><a href="index.html">The Curious Case</a><span>A little wandering. A little wonder.</span><a href="#credits" id="credits-open">Image credits</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="credits-dialog" aria-labelledby="credits-title"><div class="dialog-inner"><button class="dialog-close" id="credits-close" aria-label="Close image credits">×</button><p class="eyebrow">Made with care</p><h2 id="credits-title">Behind the pictures</h2><p>Photography selected by our design partner, from Pexels. Menu artwork supplied by our design partner. Book covers are simple HTML and CSS designs.</p><div id="image-credits"></div></div></dialog>
+</body>
+</html>
